@@ -1,0 +1,40 @@
+I worked on 4 projects
+
+1. Datastage jobs migration to Hadoop for netwatch unit
+This project is about keeping records about all the devices in stores.
+eg. active divices, non-active devices, most used devices, 
+network speed, network status etc.
+we import data from oracle using sqoop then
+we process data using hive and exported data to teradata inorder to create micro-sttrategy reports
+
+2. Integrated demand and replinishment planning
+Sears has its own stores across US, so we keep records 
+like which item sold most,
+how many quantity of that itemsold,
+customer feedback/complaints,
+which item sold less,
+why it sold less 
+and then this inventory data is used for planning and demading items from vendor.
+and items are actually replenish to stores/warehouse using rim inventory management
+
+so in IDRP 
+we import data from oracle/mysql
+then we transform data using Spark SQL using dataframe
+then we send data back to oracle
+
+
+3. Rim - I transformed ruby scripts into Pig
+4. Now I am working on Hadoop Scripts Migration to AWS
+
+
+I am Heena
+From Pune
+I work in Sears India for 4.2 years 
+I worked in Hadoop,Spark technolgy
+I did 4 project
+
+Rim  -Ruby to Pig Migration
+IDRP - Transformed data using SparkSQL
+Netwatch - Terdata to Hive Migration
+CDH5 Migration - CDH4 to CDH5 Migration
+now working on AWS migration - Hadoop to AWS migration
