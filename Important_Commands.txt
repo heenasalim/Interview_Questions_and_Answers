@@ -1,0 +1,7 @@
+hadoop distcp -i hftp://trphadn01/smith/hdrim/rim/recalled_items hdfs://trihadn01/smith/hdrim/rim/
+
+
+scp hshaik0@trphada03.hadoop.searshc.com:/staging/netwatch/motorola/motorola_history/AvailabilityData_03162016.tar.gz hshaik0@trihadap01.vm.searshc.com:/staging/netwatch/motorola/
+ 
+
+sh /appl/common/scripts/diff_tool/diff_tool.sh -ip1 "/user/hshaik0/tmp_acc_pt_minut_brk_dn" -l1 "|" -c "2s,3s,4s,5s,6s,7s,8s,9s,10s,11s,12s,13s" -ip2 "/user/hshaik0/tmp_acc_pt_down_tm" -l2 "|" -op  "/user/hshaik0/error_records_shop" 

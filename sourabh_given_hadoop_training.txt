@@ -1,0 +1,90 @@
+flat file
+vertical scalaility - increasing resouces in single machine to handle work
+horizontal scalaility  - adding machines in order to handle work
+
+how to load json file in hadoop
+
+
+Mapreduce:-
+data ->processing->report generator
+
+
+monitoring and scheduling tools - oozie
+
+cloudera,ibm,hotornwoks,microsoft-  gives hadoop with packaging and adding extra features
+eg ,. we dont consume tea directy we addd some featurees and then consumes it
+
+block size in linux ,windows and hadoop
+
+task tracker and datanode will on same physical machine
+
+job tracker lies on namenode or outside
+
+hadoop cluster = collection of racks
+racks = namenodes,jobtracker,datanodes,task tracker
+
+
+data center = is plce where racks or cluster are kept
+
+
+
+Primitive Data type-
+
+
+
+primitive data type              wrapper class         Hadoop
+									mutable             immutable 
+int          						 integer             IntWritable 
+byte         						 Byte                Byte writable   
+char         						 character           character
+
+
+
+sort implement coparable class internally
+
+
+when we dont have key then we will pass adress as key, adrees is byte offset
+
+heenaa is good girl  0  11
+shaikh is maths      11 22
+
+
+heena 1 
+is 1
+good 1
+girl 1
+========================
+shaikh 1 
+is 1 
+maths 1
+
+
+so we will pass ( 11, heena is goo girl)
+(22,shaikh is maths)
+
+=========================================
+shuffle do mixing it aggregates the same key values
+
+we need three classes for maprduce
+driver  setting all the configuration
+mapper
+reducer
+
+
+
+
+what is wrapper class uses?
+ehat is generics uses?
+what is auto boxing and unboxing
+             address        text = line    word = text  value = int 
+(input key  Longwritable  , input value  text , ouput key  text ,output value  Intwritable)  passed to Mapper class
+
+reducers geting key ie word and list is list of values eg heena,1,1
+
+how to run mapper reducer on integration
+
+hadoop jar wordcount.jar worddriverclassname  
+
+
+
+

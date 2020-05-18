@@ -1,0 +1,27 @@
+creating spark -scala project
+download scala ide from heenashaikhone@gmail.com
+create new project ->othe->new project
+open pom.xml add dependencies in given project configurations
+then project->clean
+goto windows -->show views -->problems
+add jar thoase are needed 
+right click-->scala->add scala library container
+project->clean
+yooo ur project is ready
+download following jar and keen at any folder then run following command in cmd
+jss-4.2.5.jar
+
+
+C:\Users\hshaik0\.m2>mvn install:install-file "-DgroupId=org.mozilla" "-Dartifac
+tId=jss" "-Dversion=4.2.5" "-Dpackaging=jar" "-Dfile=C:\Users\hshaik0\Desktop\sc
+ala\jss-4.2.5.jar"
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+
+
+mvn archetype:generate -B -DgroupId=teamtreehouse -DartifactId=file-spy
+
+chhose fixed scala installation 2.11
+craete scala projext
+add external sparksql jars

@@ -1,0 +1,48 @@
+Exception in thread "main" org.apache.spark.sql.AnalysisException: cannot resolve 'unix_timestamp(`processing_ts`, 'mm-yy-yy HH:mm:S')' due to data type mismatch: argument 1 requires (string or date or timestamp) type, however, '`processing_ts`' is of array<int> type.;;
+
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at Heena_Project_Practice.main(Project_Important_Points.scala)
+Caused by: java.lang.UnsupportedOperationException: No Encoder found for org.apache.spark.sql.types.TimestampType
+- field (class: "org.apache.spark.sql.types.TimestampType", name: "processing_ts")
+converted timestamptype to java.util.timestamp in case classes
+
+Caused by: java.lang.UnsupportedOperationException: No Encoder found for org.apache.spark.sql.types.DateType
+- field (class: "org.apache.spark.sql.types.DateType", name: "source_begin_dt")
+
+we used encoders with case clsses to resole dte ,timestamp using dateType and timestamp_type
+
+
+Exception in thread "main" org.apache.spark.sql.AnalysisException: cannot resolve 'CAST(`source_begin_dt` AS DATE)' due to data type mismatch: cannot cast int to date;
+	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+	at org.
+changed data from into to date
+
+Exception in thread "main" java.lang.UnsupportedOperationException: No Encoder found for java.util.Date
+- field (class: "java.util.Date", name: "source_begin_dt")
+- root class: "Heena_Project_Practice.work__idrp_store_ser
+
+Exception in thread "main" org.apache.spark.SparkException: Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:
+org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:926)
+Heena_Project_Practice$.main(Project_Important_Points.scala:50)
+Heena_Project_Practice.main(Project_Important_Points.scala)
+
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at Heena.Collections_Program$.main(Collections_Program.scala:201)
+	at Heena.Collections_Program.main(Collections_Program.scala)
+
+Exception in thread "main" org.apache.spark.sql.catalyst.parser.ParseException: 
+mismatched input 'import_ind' expecting <EOF>(line 5, pos 10
+case when else statement has not given end clause
+or field is not separated by ,
+or + is attachd to "
+important
+last fild should not have ,
+missing \n
+
+//match where clause conditions for answers
+//  MISSING ) ERROR ,actually there was extra ) 
+
+
+mismatched input '(' expecting <EOF>(line 56, pos 24)
+, is missing
+    

@@ -1,0 +1,41 @@
+aws configure
+aws logs put-resource-policy --policy-name trustDataSync --policy-document file://
+
+https://myaccess.searshc.com/aveksa/main
+
+
+aws logs put-resource-policy --policy-name trustDataSync --policy-document file://full-path-to-policy-file
+
+idrp-poc-emr-data
+AWS stuff to work on 
+
+trihadap01
+hadoop fs -get /smith/idrp  /dprp/idrppsa
+
+10.6.3.212 Use this machine for python/boto code 
+  
+1. Generate data in cluster 
+2. transfer data to access server file system 
+3. *in AWS* execute task to use DataSync to transfer the file from NetApp in Troy to S3 
+4. *in AWS* create transient EMR cluster to use the data 
+
+  
+aws datasync create-task --source-location-arn 'arn:aws:datasync:region:account-id:location/location-id' --destination-location-arn 'arn:aws:datasync:region:account-id:location/location-id' --cloud-watch-log-group-arn 'arn:aws:logs:region:account-id:log-group:log-group' --name task-name
+
+
+could not exchange key alogorithm 
+use new version of putty
+
+
+aws command not working on 10.6.3.212
+use dprpdm 
+
+
+$ aws datasync create-location-nfs --server- server-address --on-prem-config AgentArns=agent-arns --subdirectory nfs-export-path
+
+$aws datasync create-task --source-location-arn 'arn:aws:datasync:region:accoon/location-id' --destination-location-arn 'arn:aws:datasync:region:account-id:location/location-id' --cloud-watch-log-group-arn 'arn:aws:logs:region:account-id:log-group:log-group' --name task-name -–options VerifyMode=NONE,OverWriteMode=NEVER,Atime=BEST_EFFORT,Mtime=PRESERVE,Uid=INT_VALUE,Gid=INT_VALUE,PreserveDevices=PRESERVE,PosixPermissions=PRESERVE,PreserveDeletedFiles=PRESERVE,TaskQueueing=ENABLED
+
+
+
+/work/idrp/udt_item
+

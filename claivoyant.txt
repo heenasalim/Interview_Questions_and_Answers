@@ -1,0 +1,32 @@
+dep_id, emp_id, emp_salary
+1, 101,4599
+1, 102
+1
+1
+2, 201, 79789
+2
+2
+2
+2
+2
+3
+3
+3
+
+sparksession.sql("select max(salary) from employee ,group by dept_id top 3")
+
+
+*****
+ ****
+  ***
+   **
+    *  
+
+
+
+for(i =5 ;i>=1;i--_
+for(j=4;j>=1;j--)
+
+{
+print(*i  + \n +  *j)
+}	

@@ -1,0 +1,6 @@
+What is cloud?
+cloud is set of machines which can be access through internet.
+
+the machine has softwares and databases.
+so we dont need mentain physical server
+we can acess the machines 

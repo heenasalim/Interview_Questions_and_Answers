@@ -1,0 +1,18 @@
+object extends app trait which is abstract class which extends DelayedInit class
+which provide main method, we dont need to write separate main method
+
+
+
+yeild== yeilds results in vector form
+
+Paired RDD = RDD which has key value pairs is paired rdd
+eg. Maps,Tuples
+we can perform reduceByKey,sortByKey,groupBykey on this
+
+Companion class and object - the class and object has same name
+object and class can use each others members here
+object can use class menbers by instantiating it
+
+Single ton class - the class which can have only single instance and globally acccebile is known as singleton class.
+
+eachobject is singleton by default in scala
