@@ -1,0 +1,11 @@
+Need jdk7,jre7
+Set environmental variables 
+
+How to create very first intellij project :-
+https://nanxiao.me/en/getting-started-with-scala-in-intellij-idea-14-1/
+
+How to install scala plugin for the intellij project 
+http://allaboutscala.com/tutorials/chapter-1-getting-familiar-intellij-ide/scala-environment-setup-install-scala-plugin-intellij/
+
+if you dont fine new scala class option, please hit below button
+http://www.alternatestack.com/development/intellij-add-new-scala-class-option-not-available/

@@ -1,0 +1,7 @@
+How to install ScalaIDE and create and run first scala project using ScalaIDE and Intellij
+
+running project through ScalaIDE:-https://data-flair.training/blogs/create-spark-scala-project/
+if maven project is not available - https://docs.scala-lang.org/tutorials/scala-with-maven.html
+
+running project through Intellij :- https://sparktutorials.github.io/2015/04/02/setting-up-a-spark-project-with-maven.html
+install scala plugin if not available :- http://allaboutscala.com/tutorials/chapter-1-getting-familiar-intellij-ide/scala-environment-setup-install-scala-plugin-intellij/

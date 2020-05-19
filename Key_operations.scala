@@ -1,8 +1,6 @@
 package spark_Context_Programs
 
 import org.apache.spark.{SparkConf,SparkContext}
-
-
 import collection.mutable.HashMap
 
 object Key_operations {
